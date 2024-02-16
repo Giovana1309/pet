@@ -1,0 +1,153 @@
+*{
+    font-family: 'Montserrat', sans-serif;
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    background-color:#bbd0ff ;
+}
+
+header{
+    margin:44px 0 144px 76px ;
+}
+
+.links-header {
+    text-transform:uppercase;
+    font-size: 24px;
+    font-weight:700;
+    line-height: 29px;
+    color: #1b3a34;
+    cursor: pointer;
+   margin-right: 23px;
+}
+
+.botao-login {
+    border-radius: 20.5px;
+    background:#003566;
+    width: 130px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    color: #FFF;
+    font-size: 24px;
+    font-weight:600;
+    
+}
+
+.img-logo {
+    width:420px;
+    height:380px;
+    margin-left:130px;
+    display: inline-block;
+    margin-top: -50px;
+    position: fixed;
+    
+}
+section {
+    display: inline-block;  
+    margin-left: 50px;
+}
+h1 {
+    
+    color: #0c0b0b;
+    font-size: 60px;
+    margin-left: 560px;
+    height: 60px;
+    margin-bottom: 80px;
+    margin-top: -30px;
+}
+
+
+p {
+    font-size: 22px;
+    font-weight: 200;
+    line-height: 29px;
+    color: #080808;
+    width: 650px;
+    margin-left: 150px; 
+
+}
+.texto {
+    margin-top: -40px;
+    margin-bottom: 30px;
+    margin-left: 420px;
+
+    display: inline-block; 
+
+}
+.botao-conheça {
+    text-align: right;
+    margin-right: 50px;
+  }
+
+button {
+    background-color: #003566;
+    border-radius: 20px;
+    padding: 15px;
+    font-size: 15px;
+    border-width: 2px;
+    cursor: pointer;
+    filter: drop-shadow(0 4px 4px #343a40);
+    color: aliceblue;
+    font-style: initial;
+   
+}
+@media screen and (max-width:900px) {
+
+    .links-header {
+        display: none;
+    }
+    .botao-login {
+       
+    margin-left: 200px;
+        
+    }
+
+    .botao-login {
+        border-radius: 18.5px;
+        background:#003566;
+        width: 110px;
+        height: 50px;
+        font-size: 22px;
+        margin-top: -25px;
+        
+    }
+
+    h1 {
+        font-size: 40px;
+        margin-left: -20px;
+        margin-bottom: 80px;
+        margin-top: -185px;
+    }
+    
+    
+    p {
+        font-size: 20px;
+        width: 355px;
+        margin-left:-430px; 
+    margin-top: -30px;
+    }
+   
+    .botao-conheça {
+       
+       
+    margin-top: -23px;
+    margin-right: 120px;
+   
+      }
+
+
+
+    .img-logo {
+        width:250px;
+        height:200px;
+        margin-left:90px;
+        margin-top:310px;
+        
+        
+    }
+
+
+
+    
+}
+
